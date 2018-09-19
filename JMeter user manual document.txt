@@ -1,0 +1,51 @@
+Steps for how to capture page load timing and preparation of load test report 
+
+- Open the jMeter windows patch file from local folder 
+- To record the site , First thing need to change the network configuration in mozilla firefox browser 
+- Goto settings in firefox 
+- And change to "Manual proxy configuration" with any port number.
+- Enable recording templates 
+- Change the port number in "HTTP's Test Scrpt Recorder"
+- Choose the "Put each group in a new...." in Grouping 
+- Now tap the "Start" button and tap the ok button 
+- Run the url in browser
+- In front end if user navigate to one page , we need to capture and rename it in HTTP req placed
+ in recording controller.
+- Goto to results tree under HTTPS Test Script Recorder , If you tap the selenium - tutorial request.
+In sampler result you can see the "Load time: 810"
+- So page of load time duration will dislayed 
+- Now stop the recorder and save the recorded script 
+- Now open new test plan and Add > Thread user > Ultimate thread group 
+- Mergare the saved jmx file 
+- Move the resquest under the ultimate thread group 
+- Now run the requests for single user 
+- A single user entered 
+- Load testing for single user completed 
+- We need to add listners and aggergrate report 
+
+Hi Team , 
+
+FYI , I have uploaded two videos in dropbox related to user manual for capturing page load time for website application by using Jmeter Tool.
+
+- https://www.dropbox.com/s/tla4b3wpbqmmist/Page%20load%20Time%20Testing%20Part%20-%201.g13688.mp4?dl=0 - Part - 1
+- https://www.dropbox.com/s/76r9sz7qduwsaxh/Page%20Load%20Time%20Testing%20Part%20-%202.Uh6424.mp4?dl=0 - Part - 2
+
+Kindly go through it with your convient time and revert me if you have any quires. 
+
+Thanks 
+
+
+
+
+Will continue in Part-2 , In Part -2 we are going to listen about how to prepare the load test report for page load timing.
+
+- For single user we can use normal thread group dont need add ultimate thread group 
+- Merge the existing jmx file and move the request under the thread group 
+- Add listners and aggergrate report 
+- Run the script 
+- Save the aggregate report
+
+So Preparation compeleted for Page load timing report 
+
+
+END

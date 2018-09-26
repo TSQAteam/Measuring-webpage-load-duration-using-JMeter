@@ -17,6 +17,7 @@ One advantage of open source software is the community, so I checked to see how 
 The focus of this blog post was on web page load times, because in web performance that’s what the user sees, but what JMeter does seem to do well is measure the performance of individual HTTP requests. If you’re a programmer tuning a back-end call, having JMeter call it over and over would be useful, since you can measure performance in terms of requests processed per second. JMeter also supports a wide range of non-HTTP protocols that Load Tester does not, so if you need to generate SMTP traffic, for example, Load Tester isn’t an option.
 
 While I’m sure that JMeter would get faster for me if I used it more often, the fact is that when you use JMeter you’re trading cost for efficiency. Web Performance has spent years speeding up Load Tester so that our customers can get their job done as quickly as possible, in every area from configuring test cases to special reports. When you buy a commercial product such as Load Tester the money you spend is measured against the increase in productivity and capabilities.
+
 FYI , I have uploaded two videos in dropbox related to user manual for capturing page load time for website application by using Jmeter Tool.
 
 - https://www.dropbox.com/s/tla4b3wpbqmmist/Page%20load%20Time%20Testing%20Part%20-%201.g13688.mp4?dl=0 - Part - 1

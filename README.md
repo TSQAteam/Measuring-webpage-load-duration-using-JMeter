@@ -1,4 +1,4 @@
-# Measuring Web Page Load Times using JMeter
+# Measuring Web Page Load Duration Using By JMeter Tool
 
 In JMeter, listeners are used to output the results of a load test. There are a variety of listeners available, and the other listeners can be added by installing plugins. We will use the Table because it is easy to read.
 
